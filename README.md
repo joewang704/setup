@@ -5,7 +5,7 @@ Instructions for how to setup my personal preferred dev environment
 - Install vim plugin for VSCode
 - Run `defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false` to enable holding `hjkl` to move
 - Remap jk to Esc in Vim: Insert Mode Key Bindings
-
+```
 {
     "vim.insertModeKeyBindings": [
         {
@@ -19,3 +19,4 @@ Instructions for how to setup my personal preferred dev environment
         }
     ]
 }
+```
